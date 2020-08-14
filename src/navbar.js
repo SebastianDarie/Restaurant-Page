@@ -6,9 +6,9 @@ const navbar = (content) => {
             </div>
 
             <ul>
-                <li>Home</li>
-                <li>Menu</li>
-                <li>Contact</li>
+                <li class="tabs">Home</li>
+                <li class="tabs">Menu</li>
+                <li class="tabs">Contact</li>
             </ul>
         </nav>
     `

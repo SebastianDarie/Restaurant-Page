@@ -1,4 +1,3 @@
-
 const home = (content) => {
     let homePage = document.createElement('div')
     homePage.innerHTML = `
@@ -47,6 +46,24 @@ const home = (content) => {
             <p>uugveauiusaosas@gmail.com</p>
             </div>
             
+            <ul class="social-media">
+				<li>
+					<a class="circle" href="#">
+						<i class="fab fa-facebook-f"></i>
+					</a>
+				</li>
+				<li>
+					<a class="circle" href="#">
+						<i class="fab fa-twitter"></i>
+					</a>
+				</li>
+				<li>
+					<a class="circle" href="#">
+						<i class="fab fa-instagram"></i>
+					</a>
+				</li>
+			</ul>
+
             <p class="copyright">Copyright ©2020 HawaiianWave All rights reserved</p>
         </footer>
     `

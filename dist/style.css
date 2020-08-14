@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=McLaren&display=swap');
 
 * {
     box-sizing: border-box;
@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'McLaren', cursive;
 }
 
 .nav {
@@ -167,15 +167,15 @@ footer {
     background-size: cover;
     text-align: center;
     font-size: 1.3em;
+    height: 100vh;
 }
 
 .logo {
-    width: 150px;
-    height: 140px;
+    width: 200px;
 }
 
 .sub {
-    margin-top: 20px;
+    margin-top: 50px;
     color: #f1faee;
 }
 
@@ -184,7 +184,119 @@ footer {
     text-decoration: underline;
 }
 
+.social-media {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.circle {
+    border: 1px solid #fff;
+	border-radius: 50%;
+	color: #fff;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 10px;
+	height: 40px;
+	width: 40px;
+	text-decoration: none;
+}
+
 .copyright {
-    margin-top: 40px;
+    margin-top: 70px;
     color: #f1faee;
+}
+
+.main-menu {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(./images/back.jpg) no-repeat center center/cover;
+    height: 500px;
+    overflow: hidden;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.pizzas {
+    width: 200px;
+    height: 200px;
+}
+
+.salads {
+    width: 200px;
+    height: 200px;
+}
+
+.money {
+    color: #EF0031;
+    margin-bottom: 45px;
+}
+
+.contact {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(./images/contact.jpg) no-repeat center center/cover;
+    height: 500px;
+    overflow: hidden;
+}
+
+.contact-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.input {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.big-input {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    border: 0px;
+    border-bottom: 3px solid transparent;
+    background: #EFF6F7;
+    height: 50px;
+    outline: none;
+    margin-bottom: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    height: 200px !important;
+    padding: 0 20px;
+    border: 0px;
+    border-bottom: 3px solid transparent;
+    background: #EFF6F7;
+    outline: none;
+    overflow: auto;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.contact-btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
 }
